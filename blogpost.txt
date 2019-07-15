@@ -1,33 +1,33 @@
-The 5 most important facts about data scientists.
+The 3 most important facts about data scientists
 
-The stack overflow developers survey is an annual survey where developers from all over the world answer questions about their jobs.
-I explored the stack overflow developers survey in order to get some answers to questions I was curious about and finally ask the one question that really matters - are data scientists happier in their jobs than other developers?
+The stack overflow developers survey is an annual survey where developers from all over the world answer questions about their jobs. I was curious if we could learn anything about the field of data science by taking a closer look at the data.
+That's why I explored the stack overflow developers survey in order to get some answers to my questions, ranging from how it is easiest to break into the field to the tools used and finally ask the one question that really matters: Are data scientists happier in their jobs than other developers?
+Let me share my results with you!
 
 How is it easiest to break into the field of data science?
 
 Data science is a quite young domain with only few established ways how to become a data scientist. I wanted to better understand what other job descriptions developers provide in the survey. This should give a first idea about the background most people have who see themselves as Data scientist or machine learning specialist.
 
-In the survey respondents could add several job descriptions of what they are doing. Let's take a look at the additional job descriptions data scientists and machine learning specialists provide. This should give us a better understanding of the necessary skill set to really excel in the field of data science.
+In the survey respondents could add several job titles to describe their jobs. Let's take a look at the additional job descriptions data scientists and machine learning specialists provide. This should give us a better understanding of the necessary skill set to really excel in the field of data science.
 Most developers stating that they are data scientists also say that they are back-end Developers. Second most say they are full-stack developers, and on position 3 Data or business analysts claim that they are Data Scientists.
-It is quite surprising to me that almost half of scientists or machine learning specialist (48%) stated that they are back-end developers. Considering the high share of more than 7% of developers stating they are data scientists, it is questionable whether all respondents really spend the majority of their time with data scientist tasks. Nevertheless, it gives some intuition that back-end skills and full-stack skills are very helpful to be effective as Data Scientist Practitioner. Full-stack developer (38%) and data or business analyst (32%) where the next most frequent job descriptions. This is less surprising to me, as you definitely need a quite diverse skillset from data extraction to manipulation and presentation and putting models into production.
-Data and business Analysts might on the other side be able to pick up more profound coding skills or work in cross-functional teems where they get help to put data science models into production.
+It is quite surprising to me that almost half of scientists or machine learning specialist (48%) stated that they are back-end developers. Considering the high share of more than 7% of developers stating they are data scientists, it is questionable whether all respondents really spend the majority of their time with data scientist tasks. Nevertheless, it gives some intuition that back-end skills and full-stack skills are very helpful to be effective as Data Scientist practitioner. "Full-stack developer" (38%) and "Data or business analyst" (32%) where the next most frequent job descriptions. This is less surprising to me, as you definitely need a quite diverse skillset from data extraction to manipulation to putting models into production and presenting the results.
+On the other side, Data and business Analysts might be able to pick up more profound coding skills or work in cross-functional teems where they get help to put data science models into production.
 
-Okay, so we saw that mostly there are two ways to break into the field, either you have a strong background in coding and see yourselfs as back-end or full-stack developers or you have considerable domain knowledge as business or data analyst.
+Okay, so we saw that there are mostly two ways to break into the field, either you have a strong background in coding and see yourselfs as back-end or full-stack developers or you have considerable domain knowledge as business or data analyst. Let's dive deeper into which frameworks, libraries, and tools Data Scientists use to manage their daily work.
 
 What are the most important Frameworks, Libraries, and Tools data scientists use?
 
-Let's dive deeper into which frameworks, libraries, and tools Data Scientists use accordingly to the Stackoverflow developers survey. In the following I will show the 10 most used languages Data Scientists worked with, the databases they used, and which web-frameworks they are familiar with and which other Technologies they use.
+In the following I will show the 10 most used languages Data Scientists worked with, the databases they used, and which web-frameworks they are familiar with and which other Technologies they use.
 
-Python is winning the race of most used coding language by data scientists with almost 80% of usage rate. As data scientists mostly retrieve data from databases, SQL is used heavily in that field and almost 60% of respondents know how to use it. R is only at place 8 and seems to be a bit less popular in the meantime, nevertheless it is still heavily used in academia.
+Python is winning the race of most used coding language by data scientists with almost 80% of usage rate. As data scientists mostly retrieve data from databases, it is no big surprise that SQL is used heavily and almost 60% of respondents know how to use it. R is only at place 8 and seems to be a bit less popular in the meantime, nevertheless it is still heavily used in academia.
 
 Most Data Scientist work with Linux, but also Windows has a high share of being used.
 The web frameworks being used are mainly jQuery and Flask, followed by Jango and React.js.
 
 No big surprise in the tools data scientists work with. The most popular is pandas with its data-frames and inbuilt plotting. Also, TensorFlow as one of the biggest?? open source projects and very active community out there.
 
-Having how it is easy to break into the field and the tools data scientists use - is it actually worth all the effort and are data scientists really happier with their job than other developers?
-
-Let data speak and let's take a look at the numbers together.
+Alright, so we took a look so far how it is easiest to break into the field and at the tools data scientist use. Is it actually worth all the effort and are data scientists really happier with their job than other developers?
+Let data speak and let's take a look at the numbers together by designing a classical hypothesis test.
 
 Our reference group are all respondents who did not state that they are data scientists or machine learning specialists in the survey (n=64.3k) and our test group contains all data scientists or machine learning specialists (n=5.34k).
 
@@ -38,7 +38,8 @@ Data was ??encoded to numbers in order to apply statistical tests on it, in this
 
 This looks like there is an effect, but let's try to understand whether the effect is statistically significant on a confidence level of 95%. This would mean that only in 5% of cases we would reject the null hypothesis by chance, even though there was no actual effect.
 
-For that we apply a t-test and get a p-value of 0.0000002 and can reject the null-hypothesis. Wow - this confirms our assumptions and we get a statistically significant result that data scientists do not have a higher job satisfaction. Nevertheless, the effect size is not that big ;-)
+For that we apply a t-test and get a p-value of 0.0000002 and can reject the null-hypothesis. Wow - this confirms our assumptions and we get a statistically significant result that data scientists do not have a higher job satisfaction.
+Nevertheless, the effect size is not that big ;-)
 
 
 How do you try to break into the field of data science?
