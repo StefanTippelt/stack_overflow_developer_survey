@@ -11,6 +11,9 @@ The **[Stack Overflow's Developer Survey](https://insights.stackoverflow.com/sur
 - What tools are most important for `Data Scientists`?
 - Are `Data Scientists` happier in their jobs than other developers?
 
+![T-test](/images/t_test.png)
+
+
 ## Installation
 ```sh
 $ pip install -r requirements.txt
