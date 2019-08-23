@@ -2,6 +2,15 @@
 
 The **[Stack Overflow's Developer Survey](https://insights.stackoverflow.com/survey/2019)** is the largest survey where developers from all over the world answer questions about their jobs. I was curious if we could learn anything about the field of Data Science by taking a closer look at the responses.
 
+You can find the official published results here:
+
+https://insights.stackoverflow.com/survey/2019
+
+Find previous survey results here:
+
+https://insights.stackoverflow.com/survey
+
+
 [![GitHub license](https://img.shields.io/github/license/StefanTippelt/stack_overflow_developer_survey)](https://github.com/StefanTippelt/stack_overflow_developer_survey/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/StefanTippelt/stack_overflow_developer_survey)](https://github.com/StefanTippelt/stack_overflow_developer_survey/issues)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/StefanTippelt/stack_overflow_developer_survey?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FStefanTippelt%2Fstack_overflow_developer_survey)
@@ -15,8 +24,22 @@ The **[Stack Overflow's Developer Survey](https://insights.stackoverflow.com/sur
 
 
 ## Installation
+For installation you can simply run:
+
 ```sh
 $ pip install -r requirements.txt
+```
+
+Change to the notebook directory
+
+```sh
+$ cd notebook
+```
+
+And start up the notebook
+
+```sh
+$ jupyter notebook
 ```
 
 ## License
