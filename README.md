@@ -10,6 +10,7 @@ Find previous survey results here:
 
 https://insights.stackoverflow.com/survey
 
+**[Check out my blog post](https://medium.com/@mail2tippelt/the-3-most-important-facts-about-data-scientists-9bfe41f9ce82)**
 
 [![GitHub license](https://img.shields.io/github/license/StefanTippelt/stack_overflow_developer_survey)](https://github.com/StefanTippelt/stack_overflow_developer_survey/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/StefanTippelt/stack_overflow_developer_survey)](https://github.com/StefanTippelt/stack_overflow_developer_survey/issues)
